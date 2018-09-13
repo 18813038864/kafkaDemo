@@ -10,7 +10,7 @@ public class KafkaJavaProducer {
 
     public static void main(String[]args){
         Properties props = new Properties();
-        props.put("bootstrap.servers", "10.202.80.72:9092");
+        props.put("bootstrap.servers", "xxxxx:9092");
         props.put("acks", "all");
         props.put("retries", 0);
         props.put("batch.size", 16384);
